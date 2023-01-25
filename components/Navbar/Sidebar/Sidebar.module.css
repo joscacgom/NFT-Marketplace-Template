@@ -1,0 +1,90 @@
+.sideBar {
+    padding: 2rem;
+    border-bottom: 0.5px solid var(--icons-color);
+    background-color: var(--main-bg-color);
+}
+
+.sideBar_logo {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.sideBar_close {
+    position: absolute;
+    top: 3rem;
+    right: 2rem;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+}
+
+.sideBar_close:hover {
+    transform: rotate(45deg);
+}
+
+.sideBar p {
+    margin-top: -2rem;
+}
+
+.sideBar_social {
+    display: flex;
+    gap: 1.3rem;
+    font-size: 1.5rem;
+    align-items: center;
+    padding: 3rem;
+    border-bottom: 0.5px solid var(--icons-color);
+}
+
+.sideBar_social a {
+    padding: .2rem;
+    border-radius: 50%;
+    transition: all .3s ease-in;
+    display: grid;
+}
+
+.sideBar_social a:hover {
+    background-color: var(--icons-color);
+    color: var(--shadow-dark-color);
+    box-shadow: 1px solid var(--icons-color);
+}
+
+.sideBar_menu_item {
+    padding: 2rem;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.sideBar_menu_item_content {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.sideBar_link_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.sideBar_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sideBar_discover {
+    padding-inline: 1rem;
+
+}
+
+.sideBar_button {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

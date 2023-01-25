@@ -1,0 +1,12 @@
+.support {
+    padding: 0.5rem 1rem;
+    transition: all .3s ease-in;
+    z-index: 2222222222;
+}
+
+.support:hover {
+    background-color: var(--icons-color);
+    box-shadow: var(--shadow-dark-color);
+    border-radius: 0.3rem;
+    color: var(--shadow-dark-color);
+}
