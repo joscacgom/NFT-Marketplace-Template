@@ -91,7 +91,7 @@ const Sidebar = ({setShowSidebar}) => {
     <div className={Style.sideBar}>
       <GrClose className={Style.sideBar_close} onClick={()=> closeSideBar()}/>
       <div className={Style.sideBar_logo}>
-        <Image src="" width={50} height={50} alt="logo"/>
+        <Image src="https://valenciaplaza.com/public/Image/2017/3/Capturadepantalla2017-03-21alas20.52.34.png_NoticiaAmpliada.jpg" width={50} height={50} alt="logo"/>
         <div className={Style.sideBar_social}>
           <TiSocialFacebook className={Style.sideBar_social_icon}/>
           <TiSocialTwitter className={Style.sideBar_social_icon}/>

@@ -12,7 +12,7 @@ const Hero = () => {
           <Button btnName="Get Started" handleClick={()=>{}} />
         </div>
         <div className={Style.hero_container_box_right}>
-          <Image src="" alt="" width={100} height={100} />
+          <Image src="https://valenciaplaza.com/public/Image/2017/3/Capturadepantalla2017-03-21alas20.52.34.png_NoticiaAmpliada.jpg" alt="" width={100} height={100} />
         </div>
       </div>
       

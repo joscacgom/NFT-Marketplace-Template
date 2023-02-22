@@ -10,7 +10,7 @@ const Profile = () => {
   return (
     <div className={Style.profile}>
       <div className={Style.profile_account}>
-        <Image src="" width={40} height={40} alt="Profile" className={Style.profile_img} />
+        <Image src="https://valenciaplaza.com/public/Image/2017/3/Capturadepantalla2017-03-21alas20.52.34.png_NoticiaAmpliada.jpg" width={40} height={40} alt="Profile" className={Style.profile_img} />
         <div className={Style.profile_info}>
           <p>Name</p>
           <small>34545645667567567</small>
